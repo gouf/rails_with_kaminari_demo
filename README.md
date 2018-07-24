@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+FJORD Bootcamp の課題として出されたもの
 
-Things you may want to cover:
+お題は「kaminari を使ってページネーションを実装する」というもの
 
-* Ruby version
+## 初期データの投入
 
-* System dependencies
+課題の確認手順についての特記事項:
 
-* Configuration
+* `bundle install`, DB 作成後など基本的なセットアップのあとに seed data の投入をする
 
-* Database creation
+```sh
+# ...
+# bundle install
+# rails db:migrate
 
-* Database initialization
+rails db:seed
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# rails s
+# ...
+```
