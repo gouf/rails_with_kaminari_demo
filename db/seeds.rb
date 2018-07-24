@@ -6,3 +6,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+if Rails.env.development?
+  Article.destroy_all
+  100.times do |i|
+    Article.create(title: "title ##{i}", body: 'foo bar')
+  end
+end
