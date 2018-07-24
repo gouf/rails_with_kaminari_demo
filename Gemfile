@@ -57,6 +57,7 @@ group :doc do
   gem 'yard'
 end
 
+gem 'autoprefixer-rails', '8.6.5'
 gem 'bootstrap'
 gem 'freeezer'
 gem 'kaminari'
