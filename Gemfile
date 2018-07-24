@@ -59,6 +59,7 @@ end
 
 gem 'bootstrap'
 gem 'freeezer'
+gem 'kaminari'
 gem 'less-rails'
 gem 'nprogress-rails'
 gem 'rails_safe_tasks'
